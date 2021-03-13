@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>com.waterminder.waterminder.LogDrinkIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>amount</key>
+				<string>400</string>
+				<key>drinkType</key>
+				<dict>
+					<key>displayString</key>
+					<string>Skim Milk</string>
+					<key>identifier</key>
+					<string>Skim_Milk</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.health.quantity.log</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>230C73DB-5354-4EB1-8BC2-8A4BE293E422</string>
+				<key>WFQuantitySampleDate</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>CurrentDate</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFQuantitySampleQuantity</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Magnitude</key>
+						<string>580</string>
+						<key>Unit</key>
+						<string>mg</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFQuantityFieldValue</string>
+				</dict>
+				<key>WFQuantitySampleType</key>
+				<string>Calcium</string>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientVersion</key>
+	<string>1092.8.7</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59778</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>463140863</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array>
+		<dict>
+			<key>ActionIndex</key>
+			<integer>2</integer>
+			<key>Category</key>
+			<string>Parameter</string>
+			<key>ParameterKey</key>
+			<string>WFTextActionText</string>
+			<key>Text</key>
+			<string>MUST CHANGE WATERMINDER SETTINGS:
+You have to change the WaterMinder settings have the units set to mL and not the default litres. 
+
+Otherwise you will be drinking A LOT of water according to WaterMinder (and HealthKit)</string>
+		</dict>
+	</array>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>Watch</string>
+		<string>NCWidget</string>
+	</array>
+</dict>
+</plist>

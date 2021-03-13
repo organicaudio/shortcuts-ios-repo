@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Folder</key>
+				<dict>
+					<key>DisplayString</key>
+					<string>WIP - Shortcuts TimeMachine</string>
+					<key>Identifier</key>
+					<string>BBA7DEF2-929C-4613-9ACD-BF30405CC9A0</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Folder</key>
+				<dict>
+					<key>DisplayString</key>
+					<string>Toolbox Pro</string>
+					<key>Identifier</key>
+					<string>F5C6CC29-9933-427E-AE22-F689B25D0EA8</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Folder</key>
+				<dict>
+					<key>DisplayString</key>
+					<string>Toolbox Pro</string>
+					<key>Identifier</key>
+					<string>F5C6CC29-9933-427E-AE22-F689B25D0EA8</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Folder</key>
+				<dict>
+					<key>DisplayString</key>
+					<string>Toolbox Pro</string>
+					<key>Identifier</key>
+					<string>F5C6CC29-9933-427E-AE22-F689B25D0EA8</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientVersion</key>
+	<string>788</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>61440</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>431817727</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array/>
+</dict>
+</plist>
